@@ -1,105 +1,75 @@
-ManyForms - Multi Step Registration Form Using Java Servlets
+# ManyForms - Multi Step Registration Form Using Java Servlets
 
-Project Description:
-ManyForms is a web-based multi-step registration application developed using Java Servlets, HTML, JDBC, MySQL, and XAMPP. The project demonstrates session management, form handling, and database connectivity using multiple forms and servlet processing.
+## 📌 Project Overview
 
-Technologies Used:
-- Java
-- Java Servlets
-- JDBC
-- HTML
-- MySQL
-- XAMPP
-- Apache Tomcat v9.0
-- Eclipse IDE
+This project demonstrates the implementation of a **Multi-Step Registration Form** using **Java Servlets**, **JDBC**, **HTML**, and **MySQL**. It showcases session management, form handling, servlet processing, and database connectivity by collecting user information across multiple forms and storing it in a MySQL database.
 
-Project Features:
-- Multi-step registration form
-- Session tracking using HttpSession
-- JDBC database connectivity
-- Store user details into MySQL database
-- Form data handling and validation
-- Dynamic servlet processing
-- Simple and user-friendly interface
+---
 
-Project Flow:
-First.html
-   ↓
-FirstServlet
-   ↓
-Second.html
-   ↓
-SecondServlet
-   ↓
-Third.html
-   ↓
-ThirdServlet
-   ↓
-Store data into MySQL database
+## 🛠 Technologies Used
 
-Project Structure:
-- FirstServlet.java
-- SecondServlet.java
-- ThirdServlet.java
+* Java
+* Java Servlets
+* JDBC
+* HTML
+* MySQL
+* XAMPP
+* Apache Tomcat v9.0
+* Eclipse IDE
 
-HTML Files:
-- First.html
-- Second.html
-- Third.html
+---
 
-Database:
-- MySQL Database using XAMPP
+## ✨ Project Features
 
-Database Name:
-servletdb
+* Multi-step registration form
+* Session tracking using HttpSession
+* JDBC database connectivity
+* Store user details into MySQL database
+* Form data handling and validation
+* Dynamic servlet processing
+* Simple and user-friendly interface
 
-Table Name:
-regservlet
+---
 
-Sample Table Structure:
+## ⚙ Software Requirements
 
-CREATE TABLE regservlet (
-    regid INT PRIMARY KEY,
-    fname VARCHAR(50),
-    lname VARCHAR(50),
-    email VARCHAR(100),
-    password VARCHAR(100),
-    mobile BIGINT,
-    address VARCHAR(255)
-);
+* Java JDK
+* Eclipse IDE
+* Apache Tomcat v9.0
+* XAMPP Server
+* MySQL JDBC Connector
 
-Software Requirements:
-- Java JDK
-- Eclipse IDE
-- Apache Tomcat v9.0
-- XAMPP Server
-- MySQL JDBC Connector
+---
 
-How to Run the Project:
-1. Install Java JDK
-2. Install Eclipse IDE
-3. Install Apache Tomcat v9.0
-4. Install XAMPP
-5. Start Apache and MySQL from XAMPP Control Panel
-6. Create database 'servletdb' in phpMyAdmin
-7. Create table 'regservlet'
-8. Add MySQL JDBC Connector JAR file to the project
-9. Import the project into Eclipse
-10. Configure Tomcat Server
-11. Run the project on server
+## ▶️ How to Run
 
-Project URL:
-http://localhost:8080/ManyForms/First.html
+1. Install Java JDK.
+2. Install Eclipse IDE.
+3. Install Apache Tomcat v9.0.
+4. Install XAMPP.
+5. Start Apache and MySQL from the XAMPP Control Panel.
+6. Create a database named `servletdb` in phpMyAdmin.
+7. Create the `regservlet` table.
+8. Add the MySQL JDBC Connector JAR file to the project.
+9. Import the project into Eclipse.
+10. Configure the Tomcat Server.
+11. Run the project on the server.
 
-Important Notes:
-- MySQL service must be running in XAMPP
-- JDBC driver must be added to project libraries
-- Database credentials in the code must match MySQL configuration
-- Apache Tomcat server must be configured properly
+```
 
-Future Improvements:
-- Add CSS styling and responsive UI
-- Add form validation using JavaScript
-- Encrypt passwords before storing
-- Add login and authentication module
-- Improve database security
+## 📌 Important Notes
+
+* MySQL service must be running in XAMPP.
+* JDBC driver must be added to the project libraries.
+* Database credentials in the code must match the MySQL configuration.
+* Apache Tomcat server must be configured properly.
+
+---
+
+## 🚀 Future Improvements
+
+* Add CSS styling and responsive UI.
+* Add form validation using JavaScript.
+* Encrypt passwords before storing.
+* Add login and authentication module.
+* Improve database security.
