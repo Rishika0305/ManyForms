@@ -57,19 +57,3 @@ This project demonstrates the implementation of a **Multi-Step Registration Form
 
 ```
 
-## 📌 Important Notes
-
-* MySQL service must be running in XAMPP.
-* JDBC driver must be added to the project libraries.
-* Database credentials in the code must match the MySQL configuration.
-* Apache Tomcat server must be configured properly.
-
----
-
-## 🚀 Future Improvements
-
-* Add CSS styling and responsive UI.
-* Add form validation using JavaScript.
-* Encrypt passwords before storing.
-* Add login and authentication module.
-* Improve database security.
